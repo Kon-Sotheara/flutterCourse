@@ -91,3 +91,6 @@ flutter:
   assets:
     - assets/ex3/
     - assets/ex4/
+    - assets/images/
+    - assets/w7/
+    - assets/seasonImages/
