@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
 
-// List<String> images = [
-//   "assets/seasonImages/fall.png",
-//   "assets/seasonImages/spring.png",
-//   "assets/seasonImages/summer.png",
-//   "assets/seasonImages/winter.png",
-// ];
 enum Seasons {
   fall("assets/seasonImages/fall.png"),
   spring("assets/seasonImages/spring.png"),
