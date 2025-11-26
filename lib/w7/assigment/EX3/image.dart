@@ -9,9 +9,7 @@ List<String> images = [
 ];
 
 void main() {
-  runApp(
-    MyGallary()
-  );
+  runApp(MyGallary());
 }
 
 class MyGallary extends StatefulWidget {
@@ -22,7 +20,7 @@ class MyGallary extends StatefulWidget {
 }
 
 class _MyGallaryState extends State<MyGallary> {
-  late int indexImage = 2;
+  int indexImage = 0;
 
   void toPrevious() {
     setState(() {
