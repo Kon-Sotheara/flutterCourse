@@ -1,16 +1,21 @@
 import 'package:uuid/uuid.dart';
 
-enum ExpenseType { FOOD, TRAVEL, LEISURE, WORK }
+enum ExpenseType { food, travel, leisure, work }
+
 
 var uuid = Uuid();
-
-class Expense {
+class ExpenseModel {
   final String id;
   String title;
   double amount;
   DateTime date;
-  ExpenseType type;
+  ExpenseType category;
 
-  Expense({required this.title, required this.amount, required this.date, required this.type})
-    : id = uuid.v4();
+  ExpenseModel({
+    required this.title,
+    required this.amount,
+    required this.date,
+    required this.category,
+  }) : id = uuid.v4();
 }
+
